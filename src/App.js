@@ -2,5 +2,7 @@ import React from "react";
 import "./styles.css";
 
 export default function App() {
-  return <h1>Hello World!</h1>;
+  return HelloWorld;
 }
+
+const HelloWorld = <h1>Hello World! The server is going insane</h1>;
